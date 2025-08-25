@@ -5,7 +5,7 @@ COPY package*.json ./
 RUN npm install
 
 COPY . .
-RUN npx --yes esbuild index.js --bundle \
+RUN npx --yes esbuild src/index.js --bundle \
   --platform=node --target=node24 \
   --format=esm \
   --outfile=dist/server.js

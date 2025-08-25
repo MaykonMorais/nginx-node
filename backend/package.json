@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Maykon Morais",
+  "license": "ISC",
+  "description": "Backend service for the application",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
